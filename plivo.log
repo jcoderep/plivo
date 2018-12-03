@@ -1,0 +1,96 @@
+INFO:root:
+==========================================
+
+INFO:root:clicking on create app button
+INFO:root:clicking on lets get started button
+INFO:root:Adding a new page
+INFO:root:Clicking on new page button
+INFO:root:Entering value: TestPage in textbox
+INFO:root:Expanding module: Messaging
+INFO:root:Getting component: Send an SMS in the active tab
+INFO:root:Setting connection from module-1 to module-2
+INFO:root:Entering value: 9156435462 in textbox
+INFO:root:Entering value: Hello in textbox
+INFO:root:Getting component: Send an Email in the active tab
+INFO:root:Setting connection from module-2 to module-3
+INFO:root:Entering value: abc.def.com in textbox
+INFO:root:Entering value: 123.456,789.123 in textbox
+INFO:root:Entering value: Tester in textbox
+INFO:root:Entering value: test!!123 in textbox
+INFO:root:Entering value: User_1 in textbox
+INFO:root:Entering value: User_2 in textbox
+INFO:root:Entering value: TestMessage in textbox
+INFO:root:Entering value: User_3 in textbox
+INFO:root:Entering value: Hello Everyone in textbox
+INFO:root:Expanding module: Basic
+INFO:root:Getting component: Hang Up or Exit in the active tab
+INFO:root:Setting connection from module-2 to module-4
+INFO:root:
+==========================================
+
+INFO:root:clicking on create app button
+INFO:root:
+==========================================
+
+ERROR:root:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[class='name1234']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64)
+Traceback (most recent call last):
+  File "C:/plivo/plivo/plivopackage/test_case.py", line 48, in run
+    self.driver.find_element_by_xpath("//div[class='name1234']")
+  File "C:\Program Files\Python36\selenium\webdriver\remote\webdriver.py", line 365, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Program Files\Python36\selenium\webdriver\remote\webdriver.py", line 855, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python36\selenium\webdriver\remote\webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python36\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[class='name1234']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+INFO:root:
+==========================================
+
+INFO:root:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[class='name1234']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+INFO:__main__:
+==========================================
+
+INFO:__main__:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[class='name1234']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+INFO:__main__:
+==========================================
+
+INFO:__main__:clicking on create app button
+INFO:__main__:clicking on lets get started button
+INFO:__main__:Adding a new page
+INFO:__main__:Clicking on new page button
+INFO:__main__:Entering value: TestPage in textbox
+INFO:__main__:Expanding module: Messaging
+INFO:__main__:Getting component: Send an SMS in the active tab
+INFO:__main__:Setting connection from module-1 to module-2
+INFO:__main__:Entering value: 9156435462 in textbox
+INFO:__main__:Entering value: Hello in textbox
+INFO:__main__:Getting component: Send an Email in the active tab
+INFO:__main__:Setting connection from module-2 to module-3
+INFO:__main__:
+==========================================
+
+INFO:__main__:clicking on create app button
+INFO:__main__:clicking on lets get started button
+INFO:__main__:Adding a new page
+INFO:__main__:Clicking on new page button
+INFO:__main__:Entering value: TestPage in textbox
+INFO:__main__:Expanding module: Messaging
+INFO:__main__:Getting component: Send an SMS in the active tab
+INFO:__main__:Setting connection from module-1 to module-2
+INFO:__main__:Message: chrome not reachable
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64)
+
